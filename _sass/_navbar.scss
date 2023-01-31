@@ -5,7 +5,9 @@
   background: $primary;
 }
 
-.nav-link,
+.nav-link,{
+  font-size: 200%;  
+}
 .navbar-brand {
   &::after {
     @extend .link-after;
@@ -26,7 +28,7 @@
     width: 100% !important;
   }
 }
-.nav-item {
+.navbar a {
 font-size: 200%;  
 }
 
